@@ -6,8 +6,8 @@ class IslandGenerator
 private:
 
 public:
-	IslandGenerator();
-	~IslandGenerator();
+	IslandGenerator() {};
+	~IslandGenerator() {};
 
 	void Generate(std::vector<std::vector<int>>& map);
 };
